@@ -8,7 +8,6 @@ interface User {
   id: string
 }
 
-
 interface ApiContextProps {
   user: User | null
   db: DrizzleD1Database
